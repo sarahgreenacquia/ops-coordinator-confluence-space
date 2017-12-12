@@ -1,0 +1,137 @@
+<div id="main-menu"> 
+
+    <div class="dropdown">
+        <button class="dropbtn">Coordinator Overview</button>	<!-- 1st Level Navigation -->
+            <div class="dropdown-content">	<!-- 2nd Level Navigation -->
+                <a href="#">Ops Coordinator Introduction</a> 	<!-- 2nd Level Links -->
+                <a href="#">What does a Ops Coordinator Do?</a> 
+                <a href="#">What do we Need Access to?</a>
+                <a href="#">What is an ICR?</a>
+            </div> 
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Daily Tasks</button> <!-- 1st Level Navigation -->
+            <div class="dropdown-content"> <!-- 2nd Level Navigation -->
+                <a href="#">Auditing “Open” ICRs</a>	<!-- 2nd Level Links -->
+                <a href="#">Checking Completed Maintenances</a>
+                <a href="#">Clearing Closed Tickets</a>
+                <a href="#">Moving TSR’s onto Kanban Board</a>
+                <a href="#">Ops Prioritization Meeting</a>
+            </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Other Responsibilities</button> <!-- 1st Level Navigation -->
+            <div class="dropdown-content"> <!-- 2nd Level Navigation -->
+                <a href="#">AWS EC2 Events</a>	<!-- 2nd Level Links -->
+                <a href="#">How to Rebootarama</a>
+                <a href="#">Releases</a>
+                <a href="#">Scheduling Maintenances</a>
+            </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">ICR Resources</button> <!-- 1st Level Navigation -->
+            <div class="dropdown-content"> <!-- 2nd Level Navigation -->
+                <a href="#">How to Split ICRs</a>	<!-- 2nd Level Links -->
+                <a href="#">Audits</a>
+                <a href="#">ICR Templates</a>
+            </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Useful Info</button> <!-- 1st Level Navigation -->
+            <div class="dropdown-content"> <!-- 2nd Level Navigation -->
+                <a href="#">All About Bals</a>	<!-- 2nd Level Links -->
+                <a href="#">Automation for Ops Coordinators</a>
+                <a href="#">Coordinating an Infrastructure Change</a>
+                <a href="#">Coordinator's Link List / Cheat Sheet</a>
+            </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">ICR FAQ’s</button> <!-- 1st Level Navigation -->
+            <div class="dropdown-content"> <!-- 2nd Level Navigation -->
+                <a href="#">How Does this Impact my Client?</a>  <!-- 2nd Level Links -->
+                <a href="#">Ops Coordiantor Talk Slides</a>
+                <a href="#">Requesting an Infrastructure Change</a>
+            </div>
+    </div>
+
+</div>
+
+<style>
+/* Menu Wrapper */
+#main-menu
+{
+  background: #702963;
+}
+/* Dropdown Button */
+.dropbtn 
+{
+	background:transparent;
+  border-bottom:none;
+  border-image:initial;
+  border-left:none;
+  border-right:1px solid white;
+  border-top:none;
+  color:white;
+  cursor:pointer;
+  font-size:14px;
+  padding:0 10px;
+  text-transform:uppercase;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown 
+{
+  display:inline-block;
+  padding:10px 0;
+  position:relative;
+}
+.dropdown:hover 
+{
+    background-color: #A12D7A;
+}
+.dropbtn:hover
+{
+	background:black;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content 
+{
+  background-color: #A12D7A;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 8px 16px 0;
+  display: none;
+  position: absolute;
+  top: 40px;
+  width: 101%;
+  z-index: 1;
+}
+/* Links inside the dropdown */
+#main-menu .dropdown-content a 
+{
+  color: black;
+  padding:10px;
+  text-decoration: none;
+  display: block;
+	color:white;
+	border-right:1px solid white;
+  color: white !important;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover 
+{
+  background-color: #A12D7A;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn 
+{
+  background-color: #A12D7A;
+}
+</style>
