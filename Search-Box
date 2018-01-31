@@ -1,0 +1,31 @@
+<style>
+#pagetreesearch 
+{
+    text-align: right;
+    width: 100%;
+}
+
+#pagetreesearch input.aui-button
+{
+	border: none;
+    background: none;
+    background-image: url(https://confluence.acquia.com/download/thumbnails/56820198/search-icon-large.png?api=v2&nonce=2018-01-31T12%3A31%3A56%2B0000);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    color: transparent;
+    width: 30px;
+}
+
+#pagetreesearch .aui-button:focus, 
+#pagetreesearch .aui-button:hover, 
+#pagetreesearch .aui-button-subtle.aui-button:focus, 
+#pagetreesearch .aui-button-subtle.aui-button:hover 
+{
+    border-color: transparent;
+    color: transparent;
+    text-decoration: none;
+    background-image: url(https://confluence.acquia.com/download/thumbnails/56820198/search-icon-large.png?api=v2&nonce=2018-01-31T12%3A31%3A56%2B0000);
+}
+
+
+</style>
